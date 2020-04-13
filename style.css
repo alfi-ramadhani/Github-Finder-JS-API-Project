@@ -1,0 +1,89 @@
+/* @font-face {
+  font-family: GothamBook;
+  src: url(./src/GothamBook.ttf) format("truetype");
+} */
+
+@import url('./src/Montserrat-Regular.ttf');
+
+body {
+  font-size: 17px;
+  /* font-family: Arial; */
+  font-family: 'Montserrat', sans-serif;
+  background: #f4f4f4;
+  line-height: 1.5em;
+  text-decoration: none;
+  margin: 0;
+}
+
+header {
+  background: #24292E;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.5em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#container {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+
+/* input{
+  padding: 5px 10px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  color: #007bff;
+  background-color: #fff;
+} */
+
+/* html [type="button"], [type="submit"] {
+  padding: 5px 10px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  color: #fff;
+  background-color: #007bff;
+} */
+
+.btn {
+  padding: 5px 10px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  color: #fff;
+  background-color: #007bff;
+}
+
+.btn:hover {
+  padding: 5px 10px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  color: #fff;
+  background-color: #70b5ff;
+}
+
+html [type="text"] {
+  padding: 5px 10px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  color: #000;
+  background-color: #fff;
+}
+
+.divider {
+  padding: 0.5em;
+}
+
+img {
+  width: 100%;
+}
